@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+body{
+  background-color: #28282B;
+  overflow-x: hidden;
+}
+
+/* Homepage CSS */
+
+.container{
+  /* border: 1px solid red; */
+  /* height: 550px; */
+}
+
+.offCounter{
+  /* border: 1px solid green; */
+  height: 470px;
+  margin-block: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.offCounterNFTs{
+  height: inherit;
+  width: 1150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.lDisplay{
+  background-color: #1f1e2d;
+  width: 500px;
+  height: auto;
+  border: none;
+  border-radius: 3px;
+  margin: 16px;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lDisplay img{
+  cursor: pointer;
+  border-radius: 5px;
+  width: 450px;
+  height: 414px;
+  object-fit: cover;
+}
+
+.rDisplay{
+  width: 670px;
+  margin: 12px;
+}
+
+.r1Display,.r2Display{
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.r1Display{
+  margin-block: 0px;
+  margin-inline: 15px;
+}
+
+.r2Display{
+  margin-block: 10px;
+  margin-inline: 15px;
+}
+
+.box1,.box2,.box3{
+  background-color: #1f1e2d;
+  padding:6px 4.5px;
+  height: 190px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 1.09px;
+  margin-block: 5px;
+
+}
+
+.box1 img,.box2 img,.box3 img{
+  cursor: pointer;
+  height: 180px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.explore_product{
+  /* border: 1px solid red; */
+  margin-inline: 90px;
+  height: auto;
+}
+
+.heading{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 2px ;
+  margin-left: 10px;
+  color: white;
+}
+
+.categories{
+  width: 40%;
+  margin-left:10px ;
+  margin-block: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories button{
+  padding: 12px 20px;
+  border-radius: 12px;
+  outline: none;
+  border: 1px solid blue;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.nft_holder{
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  
+}
+
+.nft{
+  background-color: #1f1e2d;
+  width: 210px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  height: 350px;
+}
+
+.nft img{
+  border-radius: 10px;
+  width: 190px;
+  margin-block: 10px;
+  margin-inline: 10px;
+  object-fit: fill;
+}
+
+.nft h2{
+  font-family: 'Bebas Neue', cursive;
+  margin-inline: 15px;
+  margin-block: 10px;
+  color: white;
+  font-weight: 200;
+}
+
+.cost{
+  font-family: 'Almarai', sans-serif;
+  display: flex;
+  margin-inline: 17px;
+  color: white;
+  font-size: 1.2rem;
+  margin-block: 20px;
+}
+
+.favs{
+  margin-left: auto;
+}
+
+.guidelines{
+  margin-top: 40px;
+  margin-inline: 90px;
+}
+
+.guide_holder{
+  margin-block: 40px;
+  display: flex;
+}
+
+
+.guide{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1f1e2d;
+  border-radius: 5px;
+  margin-inline: 5px;
+  width: 300px;
+  padding-inline:15px;
+  margin-top: 30px;
+  height: 270px;
+}
+
+.guide img{
+  margin-block: 20px;
+  padding-top: 10px;
+}
+
+
+
+
+.guide h2{
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  color: white;
+  margin-block: 14px;
+}
+
+.guide p{
+  font-family: 'Almarai', sans-serif;
+  letter-spacing: 0.5px;
+  color: white;
+  font-size: 0.9rem;
+}

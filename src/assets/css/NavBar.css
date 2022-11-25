@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding:16px 10px;
+    align-items: center;
+    background-color: #191922;
+}
+
+.logo_holder img{
+    width:120px;
+    height: 35px;
+}
+
+.navContent_holder ul{
+    /* font-size: 1px; */
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+li{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wallet_btn button{
+    color: white;
+    border: 1px solid blue;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background-color: #202e49;
+}
+
+.wallet_btn button:hover{
+    background-color: blue;
+}
+
+.connected_user{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.connected_user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.wallet_id{
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    letter-spacing: 1px;
+}
+
+

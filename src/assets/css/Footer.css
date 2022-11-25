@@ -1,0 +1,130 @@
+.footer_holder {
+    height: 70vh;
+    margin-top: 130px;
+    /* margin-bottom: 100px; */
+    background-color: #1f1e2d;
+}
+
+.footer {
+    margin-inline: 90px;
+    /* border: 1px solid pink; */
+    height: inherit;
+    display: flex;
+}
+
+.web_info {
+    /* border: 1px solid yellow; */
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-block: 80px;
+}
+
+.web_info img {
+    margin-left: 20px;
+    margin-block: 40px;
+    height: 50px;
+}
+
+.web_info p {
+    margin-left: 24px;
+    width: 70%;
+    font-family: 'Almarai', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.team_info{
+    /* border: 1px solid green; */
+    margin-left: 20px;
+    width: 500px;
+}
+
+.team_info p,.top_sells p{
+  font-family: 'Bebas Neue', cursive;
+    margin-block: 40px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.teammates{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_mem{
+    /* border: 1px solid green; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.team_mem img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name{
+    color: white;
+    text-align: center;
+}
+
+.social img{
+    width: 20px;
+    height: 20px;
+    border-radius: 0px;
+    filter: invert(100);
+}
+
+.top_sells{
+    margin-left: 120px;
+}
+
+.contris{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contri{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contri img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.text_content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text_content .name{
+    margin-block: 7px;
+    font-family: 'Almarai', sans-serif;
+
+}
+
+.text_content .noOfContris{
+    margin-block: 3px;
+    font-family: 'Almarai', sans-serif;
+    color: white;
+}
+
