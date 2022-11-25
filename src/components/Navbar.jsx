@@ -67,9 +67,9 @@ const mintNftButton = () => {
     )
   }
 
-useEffect(() => {
-    checkWalletIsConnected();
-  }, [])
+// useEffect(() => {
+//     checkWalletIsConnected();
+//   }, [])
 
     const addDots = (string) => {
         var dots = ".....";
@@ -87,8 +87,8 @@ useEffect(() => {
             </div>
             <div className="navContent_holder">
                 <ul>
-                    <a href=""><li>Home</li></a>
-                    <a href=""><li>Dashboard</li></a>
+                    <a href="/"><li>Home</li></a>
+                    <a href="/dashboard"><li>Dashboard</li></a>
                 </ul>
             </div>
             <div className="wallet_holder">

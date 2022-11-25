@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 body{
   background-color: #28282B;
@@ -213,4 +214,60 @@ body{
   letter-spacing: 0.5px;
   color: white;
   font-size: 0.9rem;
+}
+
+
+/* NFTs CSS */
+
+.showcase_container{
+  margin-block:40px;
+  margin-inline: 60px;
+  background-color: #1f1e2d;
+  display: flex;
+}
+
+.showcase{
+  /* border: 1px solid green; */
+  width: 65%;
+  height: 550px;
+  border-radius: 12px;
+
+}
+
+.gun_model{
+  /* border: 1px solid red; */
+  height: 350px;
+  border-radius: 12px;
+
+  
+}
+
+.canvas_bg{
+  background: linear-gradient(90deg, hsla(55, 100%, 34%, 1) 0%, hsla(178, 100%, 12%, 1) 100%);
+  border-radius: 6px;
+  margin-block: 12px;
+  margin-inline: 10px;
+}
+
+.gun_model_name{
+  margin-top: 12px;
+  font-size: 3rem;
+  margin-inline: 15px;
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.gun_model_desc{
+  margin-inline: 15px;
+  margin-block: 10px;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.9rem;
+}
+
+.showcase_details{
+  border: 1px solid black;
+  margin-left: 25px;
+  width: max-content;
+  margin-block: 12px;
 }
