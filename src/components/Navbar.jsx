@@ -83,7 +83,7 @@ const mintNftButton = () => {
     return(
         <div className="header">
             <div className="logo_holder">
-                <img src={Logo} alt="gunFT logo" />
+                <a href="/"><img src={Logo} alt="gunFT logo" /></a>
             </div>
             <div className="navContent_holder">
                 <ul>
