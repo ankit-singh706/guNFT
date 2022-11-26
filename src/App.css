@@ -374,6 +374,17 @@ body{
 
 
 /* GUN LAB CSS */
+
+@media screen and (max-width: 768px){
+  .guns_container{
+    flex-direction: column;
+    margin-inline: 33px !important;
+  }
+
+  .gun_holder{
+    width: 350px !important;
+  }
+}
 .guns_container{
   /* border: 1px solid red; */
   margin-block: 40px;
