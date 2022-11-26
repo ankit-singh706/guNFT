@@ -1,5 +1,5 @@
 
-import React, { Suspense } from "react";
+import React, { Suspense,useS } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Awp_Model_Hunaya } from "../Awp_Hunaya_Model";
@@ -7,6 +7,20 @@ import NFTMarket from "../components/NFTMarket";
 
 
 const NFT2 = () =>{
+
+    const [currentScope, setCurrentScope] = useState(false)
+    const [currentMuzzle, setCurrentMuzzle] = useState(false)
+
+    // console.log(currentScope)
+    const setScope = () => {
+            setCurrentScope(true)
+    }
+    const removeScope = (obj) => {
+            setCurrentScope(false)
+        }
+
+    const setMuzzle = () => { setCurrentMuzzle(true)}
+    const removeMuzzle = () => {setCurrentMuzzle(false)}
 
     return(
         <>
@@ -28,10 +42,35 @@ const NFT2 = () =>{
                     AWP HURANYA #354
                 </div>
                 <div className="gun_model_desc">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus molestias non hic eos deleniti, laborum beatae magni asperiores nihil aliquid porro, quidem mollitia ducimus reiciendis provident! Architecto quis eum accusantium hic alias enim libero magni et! Officia dicta debitis</p>
+                    <p>The AWP is normally chambered for 7.62 x 51mm NATO/.308 Winchester or .243 Winchester ammunition, though it can be chambered for other cartridges. The AWP is distinct from the Accuracy International AW AE, which also has a black finish but is a cheaper non-military version of the AW series.</p>
                 </div>
             </div>
             <div className="showcase_details">
+            <div className="customs">
+                        <div className="scope_availability">
+                            <h2>Apply Scope</h2>
+                            <div className="checks">
+                                <button onClick={setScope}>Yes</button>
+                                <button onClick={removeScope}>No</button>
+                            </div>
+                        </div>
+                        <p className="para">Press 'YES/NO' to attach/remove Scope</p>
+                        <p className="para">An aiming instrument that indicates where your bullet should impact.</p>
+                        <hr />
+                        <div className="muzzle_availability">
+                            <h2>Attach Muzzle</h2>
+                            <div className="checks">
+                                <button onClick={setMuzzle}>Yes</button>
+                                <button onClick={removeMuzzle}>No</button>
+                            </div>
+                        </div>
+                        <p className="para">Press 'YES/NO' to attach/remove Muzzle</p>
+                        <p className="para">The end of the barrel out of which the bullet comes to help dampens the recoil.</p>
+                        <hr />
+                    </div>
+                    <div className="mint_nft">
+                        <p>Buy NFT</p>
+                    </div>
             </div>
         </div>
         <NFTMarket heading="Explore Skins"/>

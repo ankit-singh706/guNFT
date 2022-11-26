@@ -1,5 +1,5 @@
 
-import React, { Suspense } from "react";
+import React, { Suspense,useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Aug_Eagle from '../Aug_eaglecomm';
@@ -7,6 +7,20 @@ import NFTMarket from "../components/NFTMarket";
 
 
 const NFT = () =>{
+
+    const [currentScope, setCurrentScope] = useState(false)
+    const [currentMuzzle, setCurrentMuzzle] = useState(false)
+
+    // console.log(currentScope)
+    const setScope = () => {
+            setCurrentScope(true)
+    }
+    const removeScope = (obj) => {
+            setCurrentScope(false)
+        }
+
+    const setMuzzle = () => { setCurrentMuzzle(true)}
+    const removeMuzzle = () => {setCurrentMuzzle(false)}
 
     return(
         <>
@@ -28,10 +42,35 @@ const NFT = () =>{
                     Aug EagleCommando #328
                 </div>
                 <div className="gun_model_desc">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus molestias non hic eos deleniti, laborum beatae magni asperiores nihil aliquid porro, quidem mollitia ducimus reiciendis provident! Architecto quis eum accusantium hic alias enim libero magni et! Officia dicta debitis</p>
+                    <p>The Steyr AUG (German: Armee-Universal-Gewehr, lit.'universal army rifle') is an Austrian bullpup assault rifle chambered for the 5.56 x 45mm NATO intermediate cartridge, designed in the 1960s by Steyr-Daimler-Puch, and now manufactured by Steyr Arms GmbH & Co KG.</p>
                 </div>
             </div>
             <div className="showcase_details">
+            <div className="customs">
+                        <div className="scope_availability">
+                            <h2>Apply Scope</h2>
+                            <div className="checks">
+                                <button onClick={setScope}>Yes</button>
+                                <button onClick={removeScope}>No</button>
+                            </div>
+                        </div>
+                        <p className="para">Press 'YES/NO' to attach/remove Scope</p>
+                        <p className="para">An aiming instrument that indicates where your bullet should impact.</p>
+                        <hr />
+                        <div className="muzzle_availability">
+                            <h2>Attach Muzzle</h2>
+                            <div className="checks">
+                                <button onClick={setMuzzle}>Yes</button>
+                                <button onClick={removeMuzzle}>No</button>
+                            </div>
+                        </div>
+                        <p className="para">Press 'YES/NO' to attach/remove Muzzle</p>
+                        <p className="para">The end of the barrel out of which the bullet comes to help dampens the recoil.</p>
+                        <hr />
+                    </div>
+                    <div className="mint_nft">
+                        <p>Buy NFT</p>
+                    </div>
             </div>
         </div>
         <NFTMarket heading="Explore Skins"/>

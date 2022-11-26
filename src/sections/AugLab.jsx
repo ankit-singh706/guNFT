@@ -125,23 +125,23 @@ const AugLab = () => {
                         <div className="scope_availability">
                             <h2>Apply Scope</h2>
                             <div className="checks">
-                                    <button onClick={setScope}>Yes</button>
-                                    <button onClick={removeScope}>No</button>
+                                <button onClick={setScope}>Yes</button>
+                                <button onClick={removeScope}>No</button>
                             </div>
                         </div>
-                            <p className="para">Press 'YES/NO' to attach/remove Scope</p>
-                            <p className="para">An aiming instrument that indicates where your bullet should impact.</p>
-                            <hr/>
+                        <p className="para">Press 'YES/NO' to attach/remove Scope</p>
+                        <p className="para">An aiming instrument that indicates where your bullet should impact.</p>
+                        <hr />
                         <div className="muzzle_availability">
                             <h2>Attach Muzzle</h2>
                             <div className="checks">
-                                    <button onClick={setMuzzle}>Yes</button>
-                                    <button onClick={removeMuzzle}>No</button>
+                                <button onClick={setMuzzle}>Yes</button>
+                                <button onClick={removeMuzzle}>No</button>
                             </div>
                         </div>
-                            <p className="para">Press 'YES/NO' to attach/remove Muzzle</p>
-                            <p className="para">The end of the barrel out of which the bullet comes to help dampens the recoil.</p>
-                            <hr/>
+                        <p className="para">Press 'YES/NO' to attach/remove Muzzle</p>
+                        <p className="para">The end of the barrel out of which the bullet comes to help dampens the recoil.</p>
+                        <hr />
                     </div>
                     <div className="mint_nft">
                         <p>Mint NFT</p>

@@ -138,11 +138,39 @@ body{
 }
 
 .lDisplay img{
+  position: absolute;
   cursor: pointer;
   border-radius: 5px;
   width: 450px;
   height: 414px;
   object-fit: cover;
+}
+
+.gun_name_ID{
+  /* border: 1px solid red; */
+  position: relative;
+  top: 180px;
+  left: -90px;
+}
+
+.lDisplay img {
+	width: 450px;
+	height: 414px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.lDisplay:hover img {
+	width: 400px;
+}
+
+.gun_name_ID p{
+  color: white;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.gun_name_ID p:hover{
+  color: black;
 }
 
 .rDisplay{
@@ -180,10 +208,30 @@ body{
 }
 
 .box1 img,.box2 img,.box3 img{
+  position: absolute;
   cursor: pointer;
   height: 180px;
   width: 170px;
   object-fit: cover;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.box1:hover img,.box2:hover img,.box3:hover img{
+  width: 150px;
+}
+
+.gun_Dname{
+  position: relative;
+  color: white;
+  font-size: 1.4rem;
+  font-family: 'Bebas Neue', cursive;
+  top: 75px;
+  left: -20px;
+}
+
+.gun_Dname:hover{
+  color: black;
 }
 
 .explore_product{
@@ -592,7 +640,6 @@ hr{
   color: white;
   font-size: 1.7rem;
   font-family: 'Roboto Mono', monospace;
-
 }
 
 

@@ -4,6 +4,12 @@ import '../App.css';
 import NFTImg from '../assets/images/nft.jpg';
 import NFTMarket from "../components/NFTMarket";
 
+// Importing Images
+import FamasImg from '../assets/images/famas_vitecryt.png';
+import AugPlainImg from '../assets/images/plane_aug.png';
+import AwpPlainImg from '../assets/images/plane_awp.png';
+import AwpHunayaImg from '../assets/images/awp_hunaya.png';
+import ComingSoon from '../assets/images/coming_soon.jpg';
 
 
 
@@ -13,20 +19,33 @@ const HomePage = () => {
             <div className="offCounter">
                 <div className="offCounterNFTs">
                     <div className="lDisplay">
-                        <img src={NFTImg} alt=""/>
+                        <img src={FamasImg} alt=""/>
+                        <a href="/nft/main"><div className="gun_name_ID"><p>FAMAS VITECRYT</p></div></a>
                     </div>
                     <div className="rDisplay">
                         <div className="r1Display">
                             <div className="box1">
-                                <img src={NFTImg} alt=""/>
+                                <img src={AugPlainImg} alt=""/>
+                                <a href="/nft/main"><div className="gun_Dname"><p>AUG BROWNMETAL</p></div></a>
                             </div>
-                            <div className="box2"><img src={NFTImg} alt=""/></div>
-                            <div className="box3"><img src={NFTImg} alt=""/></div>
+                            <div className="box2">
+                                <img src={AwpHunayaImg} alt=""/>
+                                <a href="/nft/main"><div className="gun_Dname"><p>AWP HUNAYAYIRI</p></div></a>
+                                </div>
+                            <div className="box3"><img src={AwpPlainImg} alt=""/>
+                            <a href="/nft/main"><div className="gun_Dname"><p>AWP BROWNMETAL</p></div></a>
+                            </div>
                         </div>
                         <div className="r2Display">
-                            <div className="box1"><img src={NFTImg} alt=""/></div>
-                            <div className="box2"><img src={NFTImg} alt=""/></div>
-                            <div className="box3"><img src={NFTImg} alt=""/></div>
+                            <div className="box1"><img src={ComingSoon} alt=""/>
+                                <a href="/nft/main"><div className="gun_Dname"><p>Coming Soon!</p></div></a>
+                            </div>
+                            <div className="box2"><img src={ComingSoon} alt=""/>
+                                <a href="/nft/main"><div className="gun_Dname"><p>Coming Soon!</p></div></a>
+                            </div>
+                            <div className="box3"><img src={ComingSoon} alt=""/>
+                                <a href="/nft/main"><div className="gun_Dname"><p>Coming Soon!</p></div></a>
+                            </div>
                         </div>
                     </div>
                 </div>

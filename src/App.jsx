@@ -9,6 +9,7 @@ import NFT3 from './sections/NFT3';
 import NFT4 from './sections/NFT4';
 import GunLab from './sections/GunLab';
 import AugLab from './sections/AugLab';
+import NFTMain from './sections/NFTMain';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/nft/2' element={<NFT2/>}></Route>
         <Route path='/nft/3' element={<NFT3/>}></Route>
         <Route path='/nft/4' element={<NFT4/>}></Route>
+        <Route path='/nft/main' element={<NFTMain/>}></Route>
         {/* <Route path='/nft/5' element={<NFT5/>}></Route>
         <Route path='/nft/6' element={<NFT6/>}></Route> */}
         </Routes>
