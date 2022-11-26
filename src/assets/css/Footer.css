@@ -128,3 +128,35 @@
     color: white;
 }
 
+
+/* Responsive footer */
+@media screen and (max-width: 768px){
+    .footer_holder{
+        height: 1160px !important;
+    }
+    .footer{
+        flex-direction: column;
+        width: 350px !important;
+        margin-inline: 30px !important;
+        align-items: flex-start;
+    }
+
+    .web_info{
+        width: 350px;
+    }
+
+    .team_info{
+        display: none;
+    }
+
+    .top_sells{
+        margin-left: 20px !important;
+        /* margin-inline: 10px !important; */
+        /* border: 1px solid red; */
+        width: 300px;
+    }
+
+    .top_sells p{
+        text-align: left;
+    }
+}
