@@ -6,10 +6,10 @@ import NFT2 from '../assets/images/awp_hunaya.png';
 import NFT3 from '../assets/images/m16a_nm_skin.png';
 import NFT4 from '../assets/images/aug_eaglecom.png';
 
-const NFTMarket = () => {
+const NFTMarket = (props) => {
     return(
         <div className="explore_product">
-                <h1 className="heading">Explore Skins</h1>
+                <h1 className="heading">{props.heading}</h1>
                 <div className="categories">
                     <div className="cat all"><button>All</button></div>
                     <div className="cat colors"><button>Colors</button></div>

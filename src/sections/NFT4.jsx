@@ -34,7 +34,7 @@ const NFT = () =>{
             <div className="showcase_details">
             </div>
         </div>
-        <NFTMarket/>
+        <NFTMarket heading="Explore Skins"/>
         </>
     )
 }

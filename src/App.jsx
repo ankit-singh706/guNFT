@@ -2,6 +2,7 @@ import NavBar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './sections/Homepage';
 import Footer from './components/Footer';
+import DashBoard from './components/Dashboard';
 import NFT1 from './sections/NFT';
 import NFT2 from './sections/NFT2';
 import NFT3 from './sections/NFT3';
@@ -17,8 +18,10 @@ function App() {
         <NavBar/>
         <Routes>
         <Route path='/' element={<HomePage/>}></Route>
+        <Route path='/dashboard' element={<DashBoard/>}></Route>
         <Route path='/gunlab' element={<GunLab/>}></Route>
         <Route path='/gunlab/aug' element={<AugLab/>}></Route>
+  
         <Route path='/nft/1' element={<NFT1/>}></Route>
         <Route path='/nft/2' element={<NFT2/>}></Route>
         <Route path='/nft/3' element={<NFT3/>}></Route>

@@ -6,6 +6,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
+
 export default function Aug_Model(props) {
   const { nodes, materials } = useGLTF('/Aug_disco.glb')
 
@@ -16,7 +17,12 @@ export default function Aug_Model(props) {
   })
   return (
     <group ref={model_ref} {...props} dispose={null}>
-      <mesh geometry={nodes.Mesh001.geometry} material={materials.rif_aug} />
+      <mesh 
+        geometry={nodes.Mesh001.geometry} 
+        material={materials.rif_aug}
+      >
+        {/* <meshStandardMaterial map={Tex1}/> */}
+    </mesh>
       <mesh geometry={nodes.Mesh001_1.geometry} material={materials.scope_aug} />
       <mesh geometry={nodes.Mesh001_2.geometry} material={materials.rif_aug_scope} />
       <mesh geometry={nodes.Mesh001_3.geometry} material={materials.scope_lens_dirt} />

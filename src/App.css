@@ -366,7 +366,7 @@ body{
 }
 
 .showcase_details{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-left: 25px;
   width: max-content;
   margin-block: 12px;
@@ -441,11 +441,11 @@ body{
   font-family: 'Bebas Neue', cursive;
   font-size: 2.2rem;
   margin-left:10px;
-  margin-top: 5px;
+  margin-top: 20px;
 }
 
 .skins_holder{
-  margin-top: 10px;
+  margin-top: 20px;
   /* border: 1px solid red; */
   margin-inline: 12px;
   display: flex;
@@ -464,5 +464,135 @@ body{
   object-fit: cover;
 }
 
+
+
+.scope_availability,
+.muzzle_availability{
+  background-color: #292833;
+  border-radius: 8px;
+  padding-inline: 19px;
+  display: flex;
+  align-items: center;
+  margin-block: 18px;
+  gap: 30px;
+  margin-right: 9px;
+}
+
+.scope_availability h2,
+.muzzle_availability h2{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+  margin-block: 10px;
+  width: 166px;
+}
+
+.checks{
+  /* border: 1px solid red; */
+}
+
+.checks button{
+  padding: 5px 12px;
+  margin-inline: 8px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.checks button:hover{
+  background-color: chocolate;
+}
+
+.para{
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7rem;
+  margin-inline: 12px;
+  margin-block: 10px;
+  width: 280px;
+
+}
+
+hr{
+  color: #28282B;
+  width: 230px;
+  margin: auto;
+  margin-block: 35px;
+}
+
+.mint_nft{
+  display: flex;
+  justify-content: center;
+  background-color: #202e49;
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  margin-inline: 90px;
+  margin-block: 34px;
+  padding: 12px 12px;
+  border-radius: 7px;
+}
+
+.mint_nft:hover{
+  background-color: blue;
+}
+
+/* Dashboard CSS */
+.wallet_info_dash{
+  /* border: 1px solid red; */
+  background-color: #1f1e2d;
+  border-radius: 10px;
+  padding-block: 10px;
+  margin-block: 40px;
+  margin-inline: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.user{
+  display: flex;
+  margin-inline: 40px;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+
+.user_dp img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-inline: 40px;
+}
+
+.userName{
+  color: white;
+  font-size: 1.7rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
+
+.userid{
+  margin-inline: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.your_skins{
+  margin-inline: 80px;
+}
+
+.your_skins h2{
+  color: white;
+  font-size: 1.7rem;
+  font-family: 'Roboto Mono', monospace;
+
+}
 
 

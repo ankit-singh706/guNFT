@@ -48,7 +48,7 @@ const Footer = () => {
                                 <div className="noOfContris">3 contributions</div>
                             </div>
                         </div>
-                        <hr/>
+                        <hr id="footer_hr"/>
                         <div className="contri">
                             <img src={TMemImg} alt="" />
                             <div className="text_content">
@@ -56,14 +56,14 @@ const Footer = () => {
                                 <div className="noOfContris">3 contributions</div>
                             </div>
                         </div>
-                        <hr/><div className="contri">
+                        <hr id="footer_hr"/><div className="contri">
                             <img src={TMemImg} alt="" />
                             <div className="text_content">
                                 <div className="name">#32 Thrust</div>
                                 <div className="noOfContris">3 contributions</div>
                             </div>
                         </div>
-                        <hr/>
+                        <hr id="footer_hr"/>
                     </div>
                 </div>
             </div>

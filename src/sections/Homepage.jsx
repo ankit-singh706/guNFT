@@ -31,7 +31,7 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <NFTMarket/>
+            <NFTMarket heading="Explore Skins"/>
             <div className="guidelines">
                 <div className="heading"><h1>Create and Sell your NFTs</h1></div>
                 <div className="guide_holder">

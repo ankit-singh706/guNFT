@@ -87,20 +87,24 @@
 }
 
 .top_sells{
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .contris{
     /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1px;
 }
 
 .contri{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 11px;
+}
+
+hr{
+    margin-block: 12px;
 }
 
 .contri img{

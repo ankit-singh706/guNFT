@@ -1,9 +1,15 @@
 
 import React, { Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls, useGLTF } from "@react-three/drei";
 import M4_nightmare from '../M4_nightmare';
+import * as THREE from "three";
 import NFTMarket from "../components/NFTMarket";
+import { useTexture } from "@react-three/drei";
+
+
+//Importing Textures
+
 
 
 const NFT3 = () =>{
@@ -24,7 +30,7 @@ const NFT3 = () =>{
                 </Canvas>
                 </div>
                 <div className="gun_model_name">
-                    AWP HURANYA #354
+                    M416 NIGHTMARE #354
                 </div>
                 <div className="gun_model_desc">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus molestias non hic eos deleniti, laborum beatae magni asperiores nihil aliquid porro, quidem mollitia ducimus reiciendis provident! Architecto quis eum accusantium hic alias enim libero magni et! Officia dicta debitis</p>
@@ -33,7 +39,7 @@ const NFT3 = () =>{
             <div className="showcase_details">
             </div>
         </div>
-        <NFTMarket/>
+        <NFTMarket heading="Explore Skins"/>
         </>
     )
 }
