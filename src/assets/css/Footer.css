@@ -132,7 +132,7 @@
 /* Responsive footer */
 @media screen and (max-width: 768px){
     .footer_holder{
-        height: 1160px !important;
+        height: 1100px !important;
     }
     .footer{
         flex-direction: column;
