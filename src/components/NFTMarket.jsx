@@ -5,6 +5,8 @@ import NFT1 from '../assets/images/aug_disco.jpg';
 import NFT2 from '../assets/images/awp_hunaya.png';
 import NFT3 from '../assets/images/m16a_nm_skin.png';
 import NFT4 from '../assets/images/aug_eaglecom.png';
+import NFTShirtImg from '../assets/images/red_shirt.png';
+
 
 const NFTMarket = (props) => {
     return(
@@ -65,6 +67,8 @@ const NFTMarket = (props) => {
                         </div>
                     </div>
                     </a>
+            
+                    
                     <div className="nft">
                     <div className="image_holder">
                             <img src={NFT4} alt=""/>
@@ -75,16 +79,18 @@ const NFTMarket = (props) => {
                             <div className="favs">432</div>
                         </div>
                     </div>
+                    <a href="/nft/redShirt">
                     <div className="nft">
                     <div className="image_holder">
-                            <img src={NFT4} alt=""/>
+                            <img src={NFTShirtImg} alt=""/>
                         </div>  
-                        <h2>Draco #432</h2>
+                        <h2>RED TSHIRT#432</h2>
                         <div className="cost">
                             <div className="price">0.0032 ETH</div>
                             <div className="favs">432</div>
                         </div>
                     </div>
+                    </a>
                     <div className="nft">
                     <div className="image_holder">
                             <img src={NFT4} alt=""/>

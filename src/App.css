@@ -553,14 +553,20 @@ body{
   background-color: chocolate;
 }
 
-.para{
+.para,.para_cap{
   color: white;
   font-family: 'Roboto Mono', monospace;
   font-size: 0.7rem;
   margin-inline: 12px;
   margin-block: 10px;
   width: 280px;
+}
 
+.para_cap{
+  font-size: 0.9rem;
+  margin-inline: 58px;
+  margin-block: 20px;
+  margin-bottom: 40px;
 }
 
 hr{
