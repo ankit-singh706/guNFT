@@ -2,7 +2,6 @@ import React,{ useEffect, useState } from "react";
 import '../App.css';
 
 import NFTImg from '../assets/images/nft.jpg';
-import NFT1 from '../assets/images/nft-1.jpeg';
 import NFTMarket from "../components/NFTMarket";
 
 
