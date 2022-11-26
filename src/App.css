@@ -22,7 +22,7 @@ body{
   .lDisplay{
     width: 200px;
     flex-direction: column;
-    display: none;
+    /* display: none; */
   }
 
   .lDisplay img{
@@ -30,8 +30,8 @@ body{
   }
 
   .rDisplay{
-    height: 1100px !important;
-    overflow-y: hidden;
+    height: 1800px !important;
+    /* overflow-y: hidden; */
     margin-block: 0px !important;
   }
 
