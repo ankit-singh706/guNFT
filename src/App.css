@@ -9,6 +9,104 @@ body{
 
 /* Homepage CSS */
 
+/* Mobile responsive */
+@media screen and (max-width: 768px){
+  *{
+    overflow-x: hidden;
+  }
+
+  .offCounterNFTs{
+    flex-direction: column;
+  }
+
+  .lDisplay{
+    width: 200px;
+    flex-direction: column;
+    display: none;
+  }
+
+  .lDisplay img{
+    display: none;
+  }
+
+  .rDisplay{
+    height: 1100px !important;
+    overflow-y: hidden;
+    margin-block: 0px !important;
+  }
+
+  .r1Display,.r2Display{
+    width: 360px;
+    gap: 10px;
+  }
+
+  .r2Display{
+    margin-block: 2px;
+  }
+
+  .box1,.box2{
+    margin-block: 1px !important;
+    padding-block: 3px !important;
+    padding-inline: 7px !important;
+  }
+
+  .box3{
+    display: none !important;
+  }
+
+  .box3 img{
+    display: none;
+  }
+
+  .explore_product{
+    margin-inline: 5px !important;
+    width: 600px;
+  }
+
+  .nft{
+    flex-wrap: nowrap !important;
+  }
+
+  .categories{
+    width: 50% !important;
+  }
+
+  .categories button{
+    padding: 12px 12px !important;
+  }
+
+  .guidelines{
+    width: 400px;
+    margin: 0px !important;
+  }
+
+  .guidelines h1{
+    text-align: center;
+  }
+
+  .guide_holder{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* NFT Page */
+  .showcase_container{
+    width: 400px;
+    margin-inline: 7px !important;
+    flex-direction: column;
+    /* overflow-y: hidden !important; */
+  }
+
+  .showcase{
+    width: 100% !important;
+  }
+
+  .gun_model{
+    overflow-y:hidden;
+  }
+
+}
+
 
 .offCounter{
   /* border: 1px solid green; */
@@ -242,7 +340,10 @@ body{
 }
 
 .canvas_bg{
-  background: linear-gradient(90deg, hsla(55, 100%, 34%, 1) 0%, hsla(178, 100%, 12%, 1) 100%);
+  /* background: linear-gradient(90deg, hsla(55, 100%, 34%, 1) 0%, hsla(178, 100%, 12%, 1) 100%); */
+  /* background: linear-gradient(90deg, hsla(213, 77%, 14%, 1) 0%, hsla(202, 27%, 45%, 1) 100%); */
+  background: linear-gradient(90deg, hsla(51, 95%, 37%, 1) 0%, hsla(0, 0%, 9%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B79C05", endColorstr="#161616", GradientType=1 );
   border-radius: 6px;
   margin-block: 12px;
   margin-inline: 10px;
@@ -270,3 +371,87 @@ body{
   width: max-content;
   margin-block: 12px;
 }
+
+
+/* GUN LAB CSS */
+.guns_container{
+  /* border: 1px solid red; */
+  margin-block: 40px;
+  margin-inline: 40px;
+  display: flex;
+  justify-content:space-between ;
+  gap: 10px;
+}
+
+.gun_holder{
+  /* border: 1px solid green; */
+  width: 350px;
+  height: 400px;
+  background-color: #1f1e2d;
+  border-radius: 7px;
+}
+
+.gun_subholder{
+  /* border: 1px solid yellow; */
+  margin: 12px 12px;
+  height: 375px;
+}
+
+.gun img{
+  border-radius: 7px;
+  width: 324px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.gun_name{
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  font-size: 3rem;
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.gun_name:hover{
+  color: coral;
+}
+
+.short_desc{
+  font-family: 'Roboto Mono', monospace;
+  color: white;
+  font-size: 0.7rem;
+  margin-left: 4px;
+}
+
+
+/* Auglab CSS */
+.skin_selects h2{
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2.2rem;
+  margin-left:10px;
+  margin-top: 5px;
+}
+
+.skins_holder{
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  margin-inline: 12px;
+  display: flex;
+  gap: 20px;
+}
+
+.skin{
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+}
+
+.skin img{
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+
+

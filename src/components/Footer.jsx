@@ -19,12 +19,12 @@ const Footer = () => {
                         <div className="team_mem">
                             <img src={TMemImg} alt="" />
                             <div className="name">Ankit Kumar Singh</div>
-                            <div className="social"><a href="www.linkedin.com"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href=".www.linkedin.com/in/"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                         <div className="team_mem">
                             <img src={TMemImg} alt="" />
                             <div className="name">Sreeniketh Madgula</div>
-                            <div className="social"><a href="www.linkedin.com"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href="www.linkedin.com/in/sreenikethmadgula"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                         <div className="team_mem">
                             <img src={TMemImg} alt="" />

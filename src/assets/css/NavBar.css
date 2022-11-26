@@ -6,6 +6,7 @@
     background-color: #191922;
 }
 
+
 .logo_holder img{
     width:120px;
     height: 35px;
@@ -60,5 +61,39 @@ a{
     font-family: 'Almarai', sans-serif;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width: 768px){
+    .header{
+        padding: 10px 2px;
+    }
+
+    #home{
+        display: none;
+    }
+
+
+    .logo_holder{
+        width: 100px;
+        /* border: 1px solid red; */
+    }
+    .logo_holder img{
+        width: 90px;
+        object-fit: fill;
+    }
+    .navContent_holder ul{
+        /* border: 1px solid red; */
+        width: 155px;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .navContent_holder a{
+        /* border: 1px solid red; */
+    }
+
+    .wallet_btn button{
+        padding: 10px 5px;
+    }
+  }
 
 

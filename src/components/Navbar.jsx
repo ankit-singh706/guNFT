@@ -87,8 +87,10 @@ const mintNftButton = () => {
             </div>
             <div className="navContent_holder">
                 <ul>
-                    <a href="/"><li>Home</li></a>
-                    <a href="/dashboard"><li>Dashboard</li></a>
+                    <a href="/"><li id="home">Home</li></a>
+                    <a href="/dashboard"><li>Dashboard</li></a>                    
+                    <a href="/gunlab"><li>Gun Lab</li></a>                    
+
                 </ul>
             </div>
             <div className="wallet_holder">
