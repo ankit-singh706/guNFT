@@ -1,6 +1,7 @@
 import React from 'react';
 
-import NFT1 from '../assets/images/aug_disco.png';
+// import NFT1 from '../assets/images/aug_disco.png';
+import NFT1 from '../assets/images/nft.jpg';
 import NFT2 from '../assets/images/awp_hunaya.png';
 import NFT3 from '../assets/images/m16a_nm_skin.png';
 import NFT4 from '../assets/images/aug_eaglecom.png';
