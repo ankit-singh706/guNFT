@@ -41,11 +41,11 @@ const HomePage = () => {
                             <div className="box2"><img src={ComingSoon} alt=""/>
                                 <a href="/nft/main"><div className="gun_Dname"><p>Coming Soon!</p></div></a>
                             </div>
-                            <div className="box1"><img src={CapImg} alt=""/>
-                                <a href="/nft/cap"><div className="gun_Dname"><p>THE NY CAP</p></div></a>
-                            </div>
                             <div className="box3"><img src={ComingSoon} alt=""/>
                                 <a href="/nft/main"><div className="gun_Dname"><p>Coming Soon!</p></div></a>
+                            </div>
+                            <div className="box1"><img src={CapImg} alt=""/>
+                                <a href="/nft/cap"><div className="gun_Dname"><p>THE NY CAP</p></div></a>
                             </div>
                         </div>
                     </div>
