@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NFT1 from '../assets/images/aug_disco.png';
+// import NFT1 from '../assets/images/aug_disco.png';
 import NFT2 from '../assets/images/awp_hunaya.png';
 import NFT3 from '../assets/images/m16a_nm_skin.png';
 import NFT4 from '../assets/images/aug_eaglecom.png';
@@ -19,7 +19,7 @@ const NFTMarket = () => {
                     <a href='/nft/1'>
                     <div className="nft">
                         <div className="image_holder">
-                            <img src={NFT1} alt=""/>
+                            <img src={NFT2} alt=""/>
                         </div>
                         <h2> Aug Blasted #328</h2>
                         <div className="cost">
