@@ -13,7 +13,7 @@ export default function Cap(props) {
   const model_ref = useRef();
 
   useFrame(() => {
-    model_ref.current.rotation.y +=0.00001;
+    model_ref.current.rotation.y +=0.01;
   })
   return (
     <group ref={model_ref} {...props} dispose={null}>
