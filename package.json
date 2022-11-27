@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@metamask/detect-provider": "^2.0.0",
     "@react-three/drei": "^9.43.3",
     "@react-three/fiber": "^8.9.1",
     "ethers": "^5.7.2",

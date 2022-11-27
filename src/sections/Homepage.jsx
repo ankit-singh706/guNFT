@@ -35,7 +35,7 @@ const HomePage = () => {
                                 </div>
                             <div className="box3"><img src={AwpPlainImg} alt=""/>
                             <a href="/nft/main"><div className="gun_Dname"><p>AWP BROWNMETAL</p></div></a>
-                            </div>
+                            </div>~
                         </div>
                         <div className="r2Display">
                             <div className="box1"><img src={CapImg} alt=""/>

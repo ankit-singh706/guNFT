@@ -9,7 +9,10 @@
 
 .logo_holder img{
     width:120px;
-    height: 35px;
+    height: 45px;
+    object-fit: cover;
+    filter: invert(100);
+    border-radius: 30px;
 }
 
 .navContent_holder ul{
