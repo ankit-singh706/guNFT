@@ -47,7 +47,7 @@ const NFTMain = () =>{
                     FAMAS VITECRYT #328
                 </div>
                 <div className="gun_model_desc">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus molestias non hic eos deleniti, laborum beatae magni asperiores nihil aliquid porro, quidem mollitia ducimus reiciendis provident! Architecto quis eum accusantium hic alias enim libero magni et! Officia dicta debitis</p>
+                    <p>The FAMAS (Fusil d'Assaut de la Manufacture d'Armes de Saint-Étienne, "Assault Rifle from the Saint-Étienne Weapon Factory") is a bullpup assault rifle designed and manufactured in France by MAS in 1978, a year after the Austrian Steyr AUG.</p>
                 </div>
             </div>
             <div className="showcase_details">
