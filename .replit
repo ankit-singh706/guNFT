@@ -1,6 +1,6 @@
 
 hidden = [".config"]
-run = "npm run dev"
+run = "vite --host"
 
 [[hints]]
 regex = "Error \\[ERR_REQUIRE_ESM\\]"
