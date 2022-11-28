@@ -5,8 +5,10 @@ import LogoImg from '../assets/images/logo.png';
 import TMemImg from '../assets/images/t_mem.jpg';
 import LinkedLogo from '../assets/images/Llogo.png';
 
-import AbhiMem from '../assets/images/abhijeet_mem.jpg';
-import AnkMem from '../assets/images/Ank_mem.jpg';
+import AbhiImg from '../assets/images/abhijeet_mem.jpg';
+import AnkImg from '../assets/images/Ank_mem.jpg';
+import SreeniImg from '../assets/images/sreeni_tmem.jpeg';
+import MahImg from '../assets/images/mah_tmem.png';
 
 
 const Footer = () => {
@@ -21,24 +23,24 @@ const Footer = () => {
                     <p>Made by team GUNFT</p>
                     <div className="teammates">
                         <div className="team_mem">
-                            <img src={AnkMem} alt="" />
+                            <img src={AnkImg} alt="" />
                             <div className="name">Ankit Kumar Singh</div>
-                            <div className="social"><a href=".www.linkedin.com/in/"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href="https://www.linkedin.com/in/ankit-kumar-singh-b23789191/"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                         <div className="team_mem">
-                            <img src={TMemImg} alt="" />
+                            <img src={SreeniImg} alt="" />
                             <div className="name">Sreeniketh Madgula</div>
-                            <div className="social"><a href="www.linkedin.com/in/sreenikethmadgula"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href="https://www.linkedin.com/in/sreenikethmadgula/"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                         <div className="team_mem">
-                            <img src={TMemImg} alt="" />
+                            <img src={MahImg} alt="chakk" />
                             <div className="name">Mahesh Chavan</div>
-                            <div className="social"><a href="www.linkedin.com"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href="https://www.linkedin.com/in/mahesh-chavan-6581b6171/"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                         <div className="team_mem">
-                            <img src={AbhiMem} alt="" />
+                            <img src={AbhiImg} alt="" />
                             <div className="name">Abhijeet Kumar</div>
-                            <div className="social"><a href="www.linkedin.com"><img src={LinkedLogo} alt=""/></a></div>
+                            <div className="social"><a href="https://www.linkedin.com/in/abhijeet-kumar1608/"><img src={LinkedLogo} alt=""/></a></div>
                         </div>
                     </div>
                 </div>

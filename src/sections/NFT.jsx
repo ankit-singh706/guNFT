@@ -1,12 +1,15 @@
-
+// import '../GuNFT_ABI';
+// import '../Marketplace_ABI';
 import React, { Suspense,useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Aug_Model from "./../Aug_Model";
 import NFTMarket from "../components/NFTMarket";
-
 import detectEthereumProvider from '@metamask/detect-provider';
+// // const Web3 = require("Web3");
+// import { Web3 } from 'Web3'
 
+import web3 from 'web3';
 const NFT = () =>{
 
     const [ walletAccount, setWalletAccount ] = useState('')
@@ -192,6 +195,7 @@ const checkWalletIsConnected = async () => {
         console.log("No authorized account found");
     }
 
+    mintNft(currentAccount)
 
 
 }
@@ -226,6 +230,273 @@ const mintNftButton = () => {
       </button>
     )
 }
+
+
+// function mintNft(account) {
+//   // const Tx = require("ethereumjs-Tx");
+  
+//   // const Web3 = require("Web3");
+//   const web3 = web3("https://goerli.infura.io/v3/97017a1177fd4e4893f047b09f8cf317")
+  
+//   // const account1 = "0xFd8C39f22b7Fd754e78211918B49478A37eDd3fF"
+//   // const account2 = "0xbbB6623C5938cA5331f53B32BAe8dDe13d974dE0"
+  
+//   // const privateKey1 = "9538cacb2e18106928025cbdb57ebad330024e6788a72ff6ce9f0ad8ae124db8"
+//   // const privateKey2 = "e386cbef6351dc36cdc896a14b97ac908013f77229c2d9aefab63ff169de9ada"
+  
+//   const guNFTContract = new Contract([
+// 		{
+// 			"inputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "_feePercent",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"stateMutability": "nonpayable",
+// 			"type": "constructor"
+// 		},
+// 		{
+// 			"anonymous": false,
+// 			"inputs": [
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "itemId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": true,
+// 					"internalType": "address",
+// 					"name": "nft",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "tokenId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "price",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": true,
+// 					"internalType": "address",
+// 					"name": "seller",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"indexed": true,
+// 					"internalType": "address",
+// 					"name": "buyer",
+// 					"type": "address"
+// 				}
+// 			],
+// 			"name": "Bought",
+// 			"type": "event"
+// 		},
+// 		{
+// 			"inputs": [
+// 				{
+// 					"internalType": "contract IERC721",
+// 					"name": "_nft",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "_tokenId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "_price",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"name": "makeItem",
+// 			"outputs": [],
+// 			"stateMutability": "nonpayable",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"anonymous": false,
+// 			"inputs": [
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "itemId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": true,
+// 					"internalType": "address",
+// 					"name": "nft",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "tokenId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": false,
+// 					"internalType": "uint256",
+// 					"name": "price",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"indexed": true,
+// 					"internalType": "address",
+// 					"name": "seller",
+// 					"type": "address"
+// 				}
+// 			],
+// 			"name": "Offered",
+// 			"type": "event"
+// 		},
+// 		{
+// 			"inputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "_itemId",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"name": "purchaseItem",
+// 			"outputs": [],
+// 			"stateMutability": "payable",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"inputs": [],
+// 			"name": "feeAccount",
+// 			"outputs": [
+// 				{
+// 					"internalType": "address payable",
+// 					"name": "",
+// 					"type": "address"
+// 				}
+// 			],
+// 			"stateMutability": "view",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"inputs": [],
+// 			"name": "feePercent",
+// 			"outputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"stateMutability": "view",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"inputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "_itemId",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"name": "getTotalPrice",
+// 			"outputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"stateMutability": "view",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"inputs": [],
+// 			"name": "itemCount",
+// 			"outputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"stateMutability": "view",
+// 			"type": "function"
+// 		},
+// 		{
+// 			"inputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "",
+// 					"type": "uint256"
+// 				}
+// 			],
+// 			"name": "items",
+// 			"outputs": [
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "itemId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"internalType": "contract IERC721",
+// 					"name": "nft",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "tokenId",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"internalType": "uint256",
+// 					"name": "price",
+// 					"type": "uint256"
+// 				},
+// 				{
+// 					"internalType": "address payable",
+// 					"name": "seller",
+// 					"type": "address"
+// 				},
+// 				{
+// 					"internalType": "bool",
+// 					"name": "sold",
+// 					"type": "bool"
+// 				}
+// 			],
+// 			"stateMutability": "view",
+// 			"type": "function"
+// 		}
+// 	], "0x04C6C2726c57292aFc8bfb980068EFC52D620D4B")
+  
+//   // const marketplaceContract = new Contract(mdata.abi, "0x8eCEE3795D22f95F608a7000bAda71ff1b8cAdA0")
+
+//   // nonce = web3.eth.getTransactionCount(account)
+//   // // tx = guNFTContract.safeMint(account).call().
+//   // txObject = {
+//   //   nonce: web3.utils.toHex(nonce),
+//   //   to: account,
+//   //   value: web3.utils.toHex(web3.utils.toWei('0.001','ether'))
+//   // }
+
+//   // web3.eth.sendSignedTransaction(row,(err,txHash)=>{
+//   //   console.log('txHash', txHash)
+//   // })
+
+//   guNFTContract.methods.safeMint(account).send({
+//     from:"account",
+//     value:"1000000000000000"
+//   })
+
+
+// }
 
 
     return(
