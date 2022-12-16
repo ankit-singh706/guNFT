@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmcQjFiLJ6AqEinfgfP92BE1HXx1cuB76MZfohFpGTXiPu/0",
+    "name":"awp",
+    "skin":"beast",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "beast"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": false,
+            "skin": ""
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}
