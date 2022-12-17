@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmXpiPfmHqMPsKvUVkVcaSrRGSTMfnqFqcwwZMWyfmeSVP/0",
+    "name":"aug",
+    "skin":"mead",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "mead"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": true,
+            "skin": "mead"
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

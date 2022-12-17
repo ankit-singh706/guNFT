@@ -1,0 +1,15 @@
+POLYGON:
+Mumbai testnet
+
+
+
+
+
+Marketplace contract:
+address: 0x04C6C2726c57292aFc8bfb980068EFC52D620D4B
+
+
+
+GuNFT contract:
+
+address: 0x8eCEE3795D22f95F608a7000bAda71ff1b8cAdA0

@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmXpiPfmHqMPsKvUVkVcaSrRGSTMfnqFqcwwZMWyfmeSVP/0",
+    "name":"awp",
+    "skin":"hunaya",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "hunaya"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": true,
+            "skin": "hunaya"
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmcQjFiLJ6AqEinfgfP92BE1HXx1cuB76MZfohFpGTXiPu/6",
+    "name":"awp",
+    "skin":"gangir",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "gangir"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": false,
+            "skin": ""
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

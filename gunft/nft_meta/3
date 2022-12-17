@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmcQjFiLJ6AqEinfgfP92BE1HXx1cuB76MZfohFpGTXiPu/3",
+    "name":"m16a4",
+    "skin":"shatter",
+    "attachments":{
+        "muzzle": {
+            "selected": false,
+            "skin": "shatter"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": false,
+            "skin": ""
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

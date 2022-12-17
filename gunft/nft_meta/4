@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmcQjFiLJ6AqEinfgfP92BE1HXx1cuB76MZfohFpGTXiPu/4",
+    "name":"m16a4",
+    "skin":"silence",
+    "attachments":{
+        "muzzle": {
+            "selected": false,
+            "skin": "silence"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": false,
+            "skin": ""
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

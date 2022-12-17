@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmXpiPfmHqMPsKvUVkVcaSrRGSTMfnqFqcwwZMWyfmeSVP/0",
+    "name":"famas",
+    "skin":"white",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "white"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": true,
+            "skin": "white"
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}

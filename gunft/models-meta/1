@@ -1,0 +1,28 @@
+{
+    "image":"ipfs://QmXpiPfmHqMPsKvUVkVcaSrRGSTMfnqFqcwwZMWyfmeSVP/0",
+    "name":"aug",
+    "skin":"disco",
+    "attachments":{
+        "muzzle": {
+            "selected": true,
+            "skin": "disco"
+        },
+        "barrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "underbarrel": {
+            "selected": false,
+            "skin": ""
+        },
+        "scope": {
+            "selected": true,
+            "skin": "disco"
+        },
+        "stock": {
+            "selected": false,
+            "skin": ""
+        }
+        
+    }
+}
